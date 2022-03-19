@@ -1,0 +1,75 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #111;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+#header {
+    background-color: #fef9f7;
+    min-height: 60px;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.header-inner {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 20px;
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 6px 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.buy-baner {
+    background-image: url(https://png.pngtree.com/illustrations/20190329/ourmid/pngtree-online-shopping-e-commerce-the-internet-shopping-png-image_39193.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    margin-top: 20px;
+}
+
+#footer {
+    background-color: #FEF9F7;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
